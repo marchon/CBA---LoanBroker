@@ -1,0 +1,22 @@
+class MainController < ApplicationController
+
+  def index
+    result = 'Hello'
+    render :json => result.to_json
+  end
+
+  def createLoanRequest
+    request = new LoanRequest
+    request.ssn = params[:ssn]
+    request.creditScore = params[:creditScore]
+    request.loanAmount = params[:loanAmount]
+    request.loanDuration = params[:loanDuration]
+    request.save
+
+    result = {
+      interestRate: 4.3,
+      ssn: 12314576879
+    }
+    render :json => result.to_json
+  end
+end

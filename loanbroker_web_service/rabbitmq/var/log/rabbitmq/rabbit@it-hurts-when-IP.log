@@ -1,0 +1,1135 @@
+
+=INFO REPORT==== 13-Dec-2015::15:52:41 ===
+Starting RabbitMQ 3.5.6 on Erlang 17.5
+Copyright (C) 2007-2015 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 13-Dec-2015::15:52:41 ===
+node           : rabbit@it-hurts-when-IP
+home dir       : /Users/Emke
+config file(s) : /Applications/MAMP/htdocs/systems-integration/rabbitmq/sbin/../etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : wdEJe8wz01BZCGB1KAb26A==
+log            : ./sbin/../var/log/rabbitmq/rabbit@it-hurts-when-IP.log
+sasl log       : ./sbin/../var/log/rabbitmq/rabbit@it-hurts-when-IP-sasl.log
+database dir   : /Applications/MAMP/htdocs/systems-integration/rabbitmq/sbin/../var/lib/rabbitmq/mnesia/rabbit@it-hurts-when-IP
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Memory limit set to 1117MB of 2792MB total.
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Limiting to approx 2460 file handles (2212 sockets)
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+FHC read buffering:  ON
+FHC write buffering: ON
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Adding vhost '/'
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Creating user 'guest'
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Setting user tags for user 'guest' to [administrator]
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Setting permissions for 'guest' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 13-Dec-2015::15:52:42 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 13-Dec-2015::15:52:42 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 13-Dec-2015::15:53:11 ===
+accepting AMQP connection <0.309.0> (127.0.0.1:50542 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:53:37 ===
+accepting AMQP connection <0.329.0> (127.0.0.1:50544 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:53:37 ===
+closing AMQP connection <0.329.0> (127.0.0.1:50544 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:53:42 ===
+accepting AMQP connection <0.346.0> (127.0.0.1:50546 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:53:42 ===
+closing AMQP connection <0.346.0> (127.0.0.1:50546 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:53:45 ===
+accepting AMQP connection <0.362.0> (127.0.0.1:50547 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:53:45 ===
+closing AMQP connection <0.362.0> (127.0.0.1:50547 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:00 ===
+closing AMQP connection <0.309.0> (127.0.0.1:50542 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:01 ===
+accepting AMQP connection <0.421.0> (127.0.0.1:50592 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:03 ===
+accepting AMQP connection <0.433.0> (127.0.0.1:50593 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:03 ===
+closing AMQP connection <0.433.0> (127.0.0.1:50593 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:49 ===
+closing AMQP connection <0.421.0> (127.0.0.1:50592 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:50 ===
+accepting AMQP connection <0.454.0> (127.0.0.1:50599 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:51 ===
+accepting AMQP connection <0.465.0> (127.0.0.1:50600 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:51 ===
+closing AMQP connection <0.465.0> (127.0.0.1:50600 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:53 ===
+accepting AMQP connection <0.482.0> (127.0.0.1:50601 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:53 ===
+closing AMQP connection <0.482.0> (127.0.0.1:50601 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:54 ===
+accepting AMQP connection <0.498.0> (127.0.0.1:50602 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:54 ===
+closing AMQP connection <0.498.0> (127.0.0.1:50602 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:57 ===
+accepting AMQP connection <0.514.0> (127.0.0.1:50606 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:58:57 ===
+closing AMQP connection <0.514.0> (127.0.0.1:50606 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:59:09 ===
+closing AMQP connection <0.454.0> (127.0.0.1:50599 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:59:10 ===
+accepting AMQP connection <0.531.0> (127.0.0.1:50609 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:59:11 ===
+accepting AMQP connection <0.542.0> (127.0.0.1:50610 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:59:11 ===
+closing AMQP connection <0.542.0> (127.0.0.1:50610 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::15:59:12 ===
+accepting AMQP connection <0.558.0> (127.0.0.1:50611 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::15:59:13 ===
+closing AMQP connection <0.558.0> (127.0.0.1:50611 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::15:59:14 ===
+closing AMQP connection <0.531.0> (127.0.0.1:50609 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:31 ===
+accepting AMQP connection <0.645.0> (127.0.0.1:50801 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:33 ===
+accepting AMQP connection <0.660.0> (127.0.0.1:50802 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:33 ===
+closing AMQP connection <0.645.0> (127.0.0.1:50801 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:37 ===
+closing AMQP connection <0.660.0> (127.0.0.1:50802 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:40 ===
+accepting AMQP connection <0.673.0> (127.0.0.1:50803 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:45 ===
+accepting AMQP connection <0.690.0> (127.0.0.1:50805 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:45 ===
+closing AMQP connection <0.673.0> (127.0.0.1:50803 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::16:10:54 ===
+closing AMQP connection <0.690.0> (127.0.0.1:50805 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+Starting RabbitMQ 3.5.6 on Erlang 17.5
+Copyright (C) 2007-2015 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+node           : rabbit@it-hurts-when-IP
+home dir       : /Users/Emke
+config file(s) : /Applications/MAMP/htdocs/systems-integration/rabbitmq/sbin/../etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : wdEJe8wz01BZCGB1KAb26A==
+log            : ./sbin/../var/log/rabbitmq/rabbit@it-hurts-when-IP.log
+sasl log       : ./sbin/../var/log/rabbitmq/rabbit@it-hurts-when-IP-sasl.log
+database dir   : /Applications/MAMP/htdocs/systems-integration/rabbitmq/sbin/../var/lib/rabbitmq/mnesia/rabbit@it-hurts-when-IP
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+Memory limit set to 1341MB of 3353MB total.
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+Limiting to approx 2460 file handles (2212 sockets)
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+FHC read buffering:  ON
+FHC write buffering: ON
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 13-Dec-2015::17:39:46 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 13-Dec-2015::17:39:46 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 13-Dec-2015::17:53:44 ===
+accepting AMQP connection <0.325.0> (127.0.0.1:49783 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::17:54:02 ===
+accepting AMQP connection <0.335.0> (127.0.0.1:49785 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::17:54:02 ===
+closing AMQP connection <0.335.0> (127.0.0.1:49785 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::17:54:48 ===
+closing AMQP connection <0.325.0> (127.0.0.1:49783 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::17:56:03 ===
+accepting AMQP connection <0.363.0> (127.0.0.1:49809 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::17:56:40 ===
+closing AMQP connection <0.363.0> (127.0.0.1:49809 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::17:56:47 ===
+accepting AMQP connection <0.374.0> (127.0.0.1:49821 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::18:01:02 ===
+closing AMQP connection <0.374.0> (127.0.0.1:49821 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::18:01:08 ===
+accepting AMQP connection <0.409.0> (127.0.0.1:49853 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:01:15 ===
+accepting AMQP connection <0.425.0> (127.0.0.1:49854 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:01:15 ===
+closing AMQP connection <0.425.0> (127.0.0.1:49854 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:01:28 ===
+accepting AMQP connection <0.437.0> (127.0.0.1:49858 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::18:01:28 ===
+closing AMQP connection <0.409.0> (127.0.0.1:49853 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::18:02:08 ===
+accepting AMQP connection <0.456.0> (127.0.0.1:49867 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::18:02:08 ===
+closing AMQP connection <0.456.0> (127.0.0.1:49867 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::18:02:58 ===
+accepting AMQP connection <0.472.0> (127.0.0.1:49882 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:03:57 ===
+closing AMQP connection <0.472.0> (127.0.0.1:49882 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:04:02 ===
+accepting AMQP connection <0.491.0> (127.0.0.1:49895 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::18:04:08 ===
+closing AMQP connection <0.437.0> (127.0.0.1:49858 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::18:04:09 ===
+accepting AMQP connection <0.504.0> (127.0.0.1:49896 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 13-Dec-2015::18:04:10 ===
+closing AMQP connection <0.491.0> (127.0.0.1:49895 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 13-Dec-2015::18:04:39 ===
+accepting AMQP connection <0.522.0> (127.0.0.1:49906 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:04:39 ===
+closing AMQP connection <0.504.0> (127.0.0.1:49896 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:05:14 ===
+accepting AMQP connection <0.537.0> (127.0.0.1:49918 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:05:14 ===
+closing AMQP connection <0.537.0> (127.0.0.1:49918 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:05:19 ===
+accepting AMQP connection <0.553.0> (127.0.0.1:49919 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:05:19 ===
+closing AMQP connection <0.553.0> (127.0.0.1:49919 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:05:30 ===
+closing AMQP connection <0.522.0> (127.0.0.1:49906 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:18:00 ===
+accepting AMQP connection <0.649.0> (127.0.0.1:50090 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:18:04 ===
+accepting AMQP connection <0.665.0> (127.0.0.1:50091 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:18:04 ===
+closing AMQP connection <0.649.0> (127.0.0.1:50090 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:18:07 ===
+accepting AMQP connection <0.677.0> (127.0.0.1:50092 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:18:07 ===
+closing AMQP connection <0.677.0> (127.0.0.1:50092 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:18:13 ===
+closing AMQP connection <0.665.0> (127.0.0.1:50091 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:14 ===
+accepting AMQP connection <0.701.0> (127.0.0.1:50110 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:16 ===
+accepting AMQP connection <0.716.0> (127.0.0.1:50111 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:16 ===
+closing AMQP connection <0.701.0> (127.0.0.1:50110 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:22 ===
+accepting AMQP connection <0.729.0> (127.0.0.1:50113 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:23 ===
+closing AMQP connection <0.729.0> (127.0.0.1:50113 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:26 ===
+accepting AMQP connection <0.745.0> (127.0.0.1:50116 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 13-Dec-2015::18:19:26 ===
+closing AMQP connection <0.745.0> (127.0.0.1:50116 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+Starting RabbitMQ 3.5.6 on Erlang 17.5
+Copyright (C) 2007-2015 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+node           : rabbit@it-hurts-when-IP
+home dir       : /Users/Emke
+config file(s) : /Applications/MAMP/htdocs/systems-integration/rabbitmq/sbin/../etc/rabbitmq/rabbitmq.config (not found)
+cookie hash    : wdEJe8wz01BZCGB1KAb26A==
+log            : ./../var/log/rabbitmq/rabbit@it-hurts-when-IP.log
+sasl log       : ./../var/log/rabbitmq/rabbit@it-hurts-when-IP-sasl.log
+database dir   : /Applications/MAMP/htdocs/systems-integration/rabbitmq/sbin/../var/lib/rabbitmq/mnesia/rabbit@it-hurts-when-IP
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+Memory limit set to 1081MB of 2704MB total.
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+Limiting to approx 2460 file handles (2212 sockets)
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+FHC read buffering:  ON
+FHC write buffering: ON
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 16-Dec-2015::21:54:32 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 16-Dec-2015::21:54:32 ===
+Server startup complete; 0 plugins started.
+
+=INFO REPORT==== 16-Dec-2015::21:55:50 ===
+accepting AMQP connection <0.225.0> (127.0.0.1:54719 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::21:56:30 ===
+accepting AMQP connection <0.245.0> (127.0.0.1:54726 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::21:56:30 ===
+closing AMQP connection <0.245.0> (127.0.0.1:54726 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::21:56:34 ===
+accepting AMQP connection <0.262.0> (127.0.0.1:54728 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::21:56:34 ===
+closing AMQP connection <0.262.0> (127.0.0.1:54728 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:08:39 ===
+closing AMQP connection <0.225.0> (127.0.0.1:54719 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:10:06 ===
+accepting AMQP connection <0.364.0> (127.0.0.1:54914 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:10:15 ===
+accepting AMQP connection <0.376.0> (127.0.0.1:54915 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:10:15 ===
+closing AMQP connection <0.376.0> (127.0.0.1:54915 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:10:17 ===
+closing AMQP connection <0.364.0> (127.0.0.1:54914 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:16:40 ===
+accepting AMQP connection <0.432.0> (127.0.0.1:54982 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:16:42 ===
+accepting AMQP connection <0.443.0> (127.0.0.1:54983 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:16:46 ===
+accepting AMQP connection <0.455.0> (127.0.0.1:54984 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:16:46 ===
+closing AMQP connection <0.455.0> (127.0.0.1:54984 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:16:53 ===
+accepting AMQP connection <0.471.0> (127.0.0.1:54985 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:16:53 ===
+closing AMQP connection <0.471.0> (127.0.0.1:54985 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:02 ===
+closing AMQP connection <0.432.0> (127.0.0.1:54982 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:02 ===
+closing AMQP connection <0.443.0> (127.0.0.1:54983 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:13 ===
+accepting AMQP connection <0.489.0> (127.0.0.1:54993 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:16 ===
+accepting AMQP connection <0.501.0> (127.0.0.1:54996 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:18 ===
+accepting AMQP connection <0.512.0> (127.0.0.1:54997 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:18 ===
+closing AMQP connection <0.512.0> (127.0.0.1:54997 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:50 ===
+closing AMQP connection <0.489.0> (127.0.0.1:54993 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:50 ===
+closing AMQP connection <0.501.0> (127.0.0.1:54996 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:55 ===
+accepting AMQP connection <0.532.0> (127.0.0.1:55003 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:58 ===
+accepting AMQP connection <0.543.0> (127.0.0.1:55004 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:17:58 ===
+closing AMQP connection <0.543.0> (127.0.0.1:55004 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:20:44 ===
+accepting AMQP connection <0.576.0> (127.0.0.1:55021 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:20:44 ===
+closing AMQP connection <0.576.0> (127.0.0.1:55021 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:07 ===
+accepting AMQP connection <0.595.0> (127.0.0.1:55025 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:07 ===
+closing AMQP connection <0.595.0> (127.0.0.1:55025 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:11 ===
+accepting AMQP connection <0.611.0> (127.0.0.1:55030 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:12 ===
+accepting AMQP connection <0.622.0> (127.0.0.1:55033 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:15 ===
+accepting AMQP connection <0.633.0> (127.0.0.1:55034 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:15 ===
+closing AMQP connection <0.633.0> (127.0.0.1:55034 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:44 ===
+closing AMQP connection <0.532.0> (127.0.0.1:55003 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:44 ===
+closing AMQP connection <0.611.0> (127.0.0.1:55030 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:44 ===
+closing AMQP connection <0.622.0> (127.0.0.1:55033 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:56 ===
+accepting AMQP connection <0.655.0> (127.0.0.1:55044 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:21:58 ===
+accepting AMQP connection <0.666.0> (127.0.0.1:55047 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:01 ===
+accepting AMQP connection <0.677.0> (127.0.0.1:55048 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:01 ===
+closing AMQP connection <0.677.0> (127.0.0.1:55048 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:20 ===
+closing AMQP connection <0.655.0> (127.0.0.1:55044 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:20 ===
+closing AMQP connection <0.666.0> (127.0.0.1:55047 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:32 ===
+accepting AMQP connection <0.696.0> (127.0.0.1:55057 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::22:22:43 ===
+closing AMQP connection <0.696.0> (127.0.0.1:55057 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::22:22:44 ===
+accepting AMQP connection <0.713.0> (127.0.0.1:55063 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:46 ===
+accepting AMQP connection <0.729.0> (127.0.0.1:55064 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:46 ===
+closing AMQP connection <0.713.0> (127.0.0.1:55063 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:53 ===
+accepting AMQP connection <0.741.0> (127.0.0.1:55067 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:55 ===
+accepting AMQP connection <0.753.0> (127.0.0.1:55068 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:55 ===
+closing AMQP connection <0.753.0> (127.0.0.1:55068 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:59 ===
+accepting AMQP connection <0.769.0> (127.0.0.1:55069 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:22:59 ===
+closing AMQP connection <0.769.0> (127.0.0.1:55069 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:23:03 ===
+accepting AMQP connection <0.785.0> (127.0.0.1:55073 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:23:03 ===
+closing AMQP connection <0.785.0> (127.0.0.1:55073 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:23:11 ===
+closing AMQP connection <0.729.0> (127.0.0.1:55064 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:23:11 ===
+closing AMQP connection <0.741.0> (127.0.0.1:55067 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:01 ===
+accepting AMQP connection <0.807.0> (127.0.0.1:55081 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:02 ===
+accepting AMQP connection <0.818.0> (127.0.0.1:55085 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:06 ===
+accepting AMQP connection <0.830.0> (127.0.0.1:55086 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:06 ===
+closing AMQP connection <0.830.0> (127.0.0.1:55086 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:15 ===
+accepting AMQP connection <0.846.0> (127.0.0.1:55087 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:15 ===
+closing AMQP connection <0.846.0> (127.0.0.1:55087 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:19 ===
+accepting AMQP connection <0.863.0> (127.0.0.1:55088 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:27 ===
+accepting AMQP connection <0.875.0> (127.0.0.1:55089 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:27 ===
+closing AMQP connection <0.875.0> (127.0.0.1:55089 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:37 ===
+closing AMQP connection <0.807.0> (127.0.0.1:55081 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:37 ===
+closing AMQP connection <0.818.0> (127.0.0.1:55085 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:37 ===
+closing AMQP connection <0.863.0> (127.0.0.1:55088 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:24:44 ===
+accepting AMQP connection <0.893.0> (127.0.0.1:55093 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::22:24:45 ===
+closing AMQP connection <0.893.0> (127.0.0.1:55093 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::22:25:08 ===
+accepting AMQP connection <0.912.0> (127.0.0.1:55103 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:12 ===
+accepting AMQP connection <0.927.0> (127.0.0.1:55104 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:12 ===
+closing AMQP connection <0.912.0> (127.0.0.1:55103 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:14 ===
+accepting AMQP connection <0.939.0> (127.0.0.1:55105 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:18 ===
+accepting AMQP connection <0.951.0> (127.0.0.1:55106 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:18 ===
+closing AMQP connection <0.951.0> (127.0.0.1:55106 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:25 ===
+accepting AMQP connection <0.967.0> (127.0.0.1:55107 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:28 ===
+accepting AMQP connection <0.979.0> (127.0.0.1:55108 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:28 ===
+closing AMQP connection <0.979.0> (127.0.0.1:55108 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:38 ===
+accepting AMQP connection <0.996.0> (127.0.0.1:55110 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:38 ===
+closing AMQP connection <0.996.0> (127.0.0.1:55110 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:40 ===
+accepting AMQP connection <0.1012.0> (127.0.0.1:55111 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:40 ===
+closing AMQP connection <0.1012.0> (127.0.0.1:55111 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:42 ===
+accepting AMQP connection <0.1028.0> (127.0.0.1:55112 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:42 ===
+closing AMQP connection <0.1028.0> (127.0.0.1:55112 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:42 ===
+accepting AMQP connection <0.1044.0> (127.0.0.1:55113 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:25:42 ===
+closing AMQP connection <0.1044.0> (127.0.0.1:55113 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:03 ===
+accepting AMQP connection <0.1062.0> (127.0.0.1:55114 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:03 ===
+closing AMQP connection <0.1062.0> (127.0.0.1:55114 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:06 ===
+accepting AMQP connection <0.1079.0> (127.0.0.1:55118 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:06 ===
+closing AMQP connection <0.1079.0> (127.0.0.1:55118 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:09 ===
+accepting AMQP connection <0.1095.0> (127.0.0.1:55120 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:09 ===
+closing AMQP connection <0.1095.0> (127.0.0.1:55120 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:11 ===
+accepting AMQP connection <0.1111.0> (127.0.0.1:55121 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:11 ===
+closing AMQP connection <0.1111.0> (127.0.0.1:55121 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:13 ===
+accepting AMQP connection <0.1127.0> (127.0.0.1:55122 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:13 ===
+closing AMQP connection <0.1127.0> (127.0.0.1:55122 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:14 ===
+accepting AMQP connection <0.1143.0> (127.0.0.1:55127 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:14 ===
+closing AMQP connection <0.1143.0> (127.0.0.1:55127 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:17 ===
+accepting AMQP connection <0.1160.0> (127.0.0.1:55128 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:17 ===
+closing AMQP connection <0.1160.0> (127.0.0.1:55128 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:18 ===
+accepting AMQP connection <0.1176.0> (127.0.0.1:55129 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:18 ===
+closing AMQP connection <0.1176.0> (127.0.0.1:55129 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:20 ===
+accepting AMQP connection <0.1192.0> (127.0.0.1:55130 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:26:21 ===
+closing AMQP connection <0.1192.0> (127.0.0.1:55130 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:29:09 ===
+closing AMQP connection <0.927.0> (127.0.0.1:55104 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:29:09 ===
+closing AMQP connection <0.939.0> (127.0.0.1:55105 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:29:09 ===
+closing AMQP connection <0.967.0> (127.0.0.1:55107 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:57:30 ===
+accepting AMQP connection <0.1405.0> (127.0.0.1:55371 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:57:33 ===
+accepting AMQP connection <0.1417.0> (127.0.0.1:55373 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:57:34 ===
+closing AMQP connection <0.1417.0> (127.0.0.1:55373 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:57:55 ===
+accepting AMQP connection <0.1435.0> (127.0.0.1:55374 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::22:57:55 ===
+closing AMQP connection <0.1435.0> (127.0.0.1:55374 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:40 ===
+closing AMQP connection <0.1405.0> (127.0.0.1:55371 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:50 ===
+accepting AMQP connection <0.1500.0> (127.0.0.1:55417 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:52 ===
+closing AMQP connection <0.1500.0> (127.0.0.1:55417 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:54 ===
+accepting AMQP connection <0.1512.0> (127.0.0.1:55420 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:56 ===
+closing AMQP connection <0.1512.0> (127.0.0.1:55420 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:58 ===
+accepting AMQP connection <0.1523.0> (127.0.0.1:55423 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:05:59 ===
+closing AMQP connection <0.1523.0> (127.0.0.1:55423 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:20:28 ===
+accepting AMQP connection <0.1626.0> (127.0.0.1:55603 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:20:39 ===
+accepting AMQP connection <0.1642.0> (127.0.0.1:55612 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:20:50 ===
+closing AMQP connection <0.1642.0> (127.0.0.1:55612 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:21:43 ===
+accepting AMQP connection <0.1665.0> (127.0.0.1:55617 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:21:46 ===
+closing AMQP connection <0.1665.0> (127.0.0.1:55617 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:21:49 ===
+accepting AMQP connection <0.1682.0> (127.0.0.1:55618 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:21:49 ===
+closing AMQP connection <0.1682.0> (127.0.0.1:55618 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:22:30 ===
+closing AMQP connection <0.1626.0> (127.0.0.1:55603 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:22:33 ===
+accepting AMQP connection <0.1703.0> (127.0.0.1:55625 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:23:45 ===
+accepting AMQP connection <0.1721.0> (127.0.0.1:55636 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:23:45 ===
+closing AMQP connection <0.1721.0> (127.0.0.1:55636 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:24:50 ===
+closing AMQP connection <0.1703.0> (127.0.0.1:55625 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:24:52 ===
+accepting AMQP connection <0.1744.0> (127.0.0.1:55642 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:24:59 ===
+accepting AMQP connection <0.1756.0> (127.0.0.1:55648 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:24:59 ===
+closing AMQP connection <0.1756.0> (127.0.0.1:55648 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:25:45 ===
+closing AMQP connection <0.1744.0> (127.0.0.1:55642 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:25:47 ===
+accepting AMQP connection <0.1777.0> (127.0.0.1:55653 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:25:53 ===
+accepting AMQP connection <0.1788.0> (127.0.0.1:55658 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:25:53 ===
+closing AMQP connection <0.1788.0> (127.0.0.1:55658 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:26:15 ===
+closing AMQP connection <0.1777.0> (127.0.0.1:55653 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:26:34 ===
+accepting AMQP connection <0.1809.0> (127.0.0.1:55668 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:26:47 ===
+accepting AMQP connection <0.1821.0> (127.0.0.1:55674 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:26:47 ===
+closing AMQP connection <0.1821.0> (127.0.0.1:55674 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:27:01 ===
+closing AMQP connection <0.1809.0> (127.0.0.1:55668 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:27:28 ===
+accepting AMQP connection <0.1842.0> (127.0.0.1:55678 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:27:29 ===
+closing AMQP connection <0.1842.0> (127.0.0.1:55678 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:27:31 ===
+accepting AMQP connection <0.1858.0> (127.0.0.1:55679 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:28:22 ===
+closing AMQP connection <0.1858.0> (127.0.0.1:55679 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:28:29 ===
+accepting AMQP connection <0.1881.0> (127.0.0.1:55698 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:28:35 ===
+accepting AMQP connection <0.1897.0> (127.0.0.1:55706 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:28:35 ===
+closing AMQP connection <0.1897.0> (127.0.0.1:55706 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:29:23 ===
+closing AMQP connection <0.1881.0> (127.0.0.1:55698 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:29:25 ===
+accepting AMQP connection <0.1918.0> (127.0.0.1:55712 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:29:50 ===
+accepting AMQP connection <0.1935.0> (127.0.0.1:55723 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:29:50 ===
+closing AMQP connection <0.1935.0> (127.0.0.1:55723 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:29:58 ===
+accepting AMQP connection <0.1952.0> (127.0.0.1:55724 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:29:58 ===
+closing AMQP connection <0.1952.0> (127.0.0.1:55724 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:30:02 ===
+accepting AMQP connection <0.1968.0> (127.0.0.1:55728 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:30:02 ===
+closing AMQP connection <0.1968.0> (127.0.0.1:55728 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:30:07 ===
+accepting AMQP connection <0.1985.0> (127.0.0.1:55729 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:30:07 ===
+closing AMQP connection <0.1985.0> (127.0.0.1:55729 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:30:44 ===
+accepting AMQP connection <0.2005.0> (127.0.0.1:55731 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:30:44 ===
+closing AMQP connection <0.2005.0> (127.0.0.1:55731 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:30:50 ===
+closing AMQP connection <0.1918.0> (127.0.0.1:55712 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:32:20 ===
+accepting AMQP connection <0.2032.0> (127.0.0.1:55740 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:32:27 ===
+accepting AMQP connection <0.2048.0> (127.0.0.1:55747 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:32:27 ===
+closing AMQP connection <0.2048.0> (127.0.0.1:55747 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:32:35 ===
+accepting AMQP connection <0.2065.0> (127.0.0.1:55749 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:32:35 ===
+closing AMQP connection <0.2065.0> (127.0.0.1:55749 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:32:38 ===
+closing AMQP connection <0.2032.0> (127.0.0.1:55740 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:33:07 ===
+accepting AMQP connection <0.2085.0> (127.0.0.1:55763 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:33:10 ===
+closing AMQP connection <0.2085.0> (127.0.0.1:55763 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:33:36 ===
+accepting AMQP connection <0.2101.0> (127.0.0.1:55770 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:33:49 ===
+accepting AMQP connection <0.2122.0> (127.0.0.1:55777 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:34:37 ===
+closing AMQP connection <0.2101.0> (127.0.0.1:55770 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:34:40 ===
+accepting AMQP connection <0.2148.0> (127.0.0.1:55788 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:34:54 ===
+closing AMQP connection <0.2122.0> (127.0.0.1:55777 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:34:56 ===
+accepting AMQP connection <0.2166.0> (127.0.0.1:55795 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:34:57 ===
+closing AMQP connection <0.2166.0> (127.0.0.1:55795 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:36:34 ===
+closing AMQP connection <0.2148.0> (127.0.0.1:55788 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:36:36 ===
+accepting AMQP connection <0.2193.0> (127.0.0.1:55804 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:39:48 ===
+closing AMQP connection <0.2193.0> (127.0.0.1:55804 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:39:50 ===
+accepting AMQP connection <0.2224.0> (127.0.0.1:55834 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:40:08 ===
+accepting AMQP connection <0.2238.0> (127.0.0.1:55842 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:40:12 ===
+closing AMQP connection <0.2238.0> (127.0.0.1:55842 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:40:29 ===
+closing AMQP connection <0.2224.0> (127.0.0.1:55834 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:40:45 ===
+accepting AMQP connection <0.2257.0> (127.0.0.1:55844 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:46:51 ===
+closing AMQP connection <0.2257.0> (127.0.0.1:55844 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:48:51 ===
+accepting AMQP connection <0.2335.0> (127.0.0.1:55919 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:51:40 ===
+closing AMQP connection <0.2335.0> (127.0.0.1:55919 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:51:44 ===
+accepting AMQP connection <0.2394.0> (127.0.0.1:55993 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:52:08 ===
+closing AMQP connection <0.2394.0> (127.0.0.1:55993 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:52:09 ===
+accepting AMQP connection <0.2413.0> (127.0.0.1:56003 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:53:13 ===
+closing AMQP connection <0.2413.0> (127.0.0.1:56003 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:53:15 ===
+accepting AMQP connection <0.2439.0> (127.0.0.1:56018 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:54:06 ===
+accepting AMQP connection <0.2460.0> (127.0.0.1:56030 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:54:06 ===
+closing AMQP connection <0.2460.0> (127.0.0.1:56030 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:54:42 ===
+closing AMQP connection <0.2439.0> (127.0.0.1:56018 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:54:44 ===
+accepting AMQP connection <0.2481.0> (127.0.0.1:56032 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:54:53 ===
+accepting AMQP connection <0.2494.0> (127.0.0.1:56041 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:55:01 ===
+closing AMQP connection <0.2494.0> (127.0.0.1:56041 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:55:12 ===
+accepting AMQP connection <0.2522.0> (127.0.0.1:56051 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:55:27 ===
+closing AMQP connection <0.2481.0> (127.0.0.1:56032 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:55:29 ===
+accepting AMQP connection <0.2539.0> (127.0.0.1:56052 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:55:42 ===
+closing AMQP connection <0.2522.0> (127.0.0.1:56051 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:55:43 ===
+accepting AMQP connection <0.2556.0> (127.0.0.1:56061 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:55:43 ===
+closing AMQP connection <0.2556.0> (127.0.0.1:56061 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:55:50 ===
+accepting AMQP connection <0.2574.0> (127.0.0.1:56062 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 16-Dec-2015::23:56:00 ===
+closing AMQP connection <0.2574.0> (127.0.0.1:56062 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 16-Dec-2015::23:56:01 ===
+accepting AMQP connection <0.2599.0> (127.0.0.1:56069 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:01 ===
+closing AMQP connection <0.2599.0> (127.0.0.1:56069 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:04 ===
+accepting AMQP connection <0.2615.0> (127.0.0.1:56073 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:04 ===
+closing AMQP connection <0.2615.0> (127.0.0.1:56073 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:07 ===
+accepting AMQP connection <0.2631.0> (127.0.0.1:56074 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:07 ===
+closing AMQP connection <0.2631.0> (127.0.0.1:56074 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:16 ===
+accepting AMQP connection <0.2649.0> (127.0.0.1:56075 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:56:16 ===
+closing AMQP connection <0.2649.0> (127.0.0.1:56075 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:57:29 ===
+closing AMQP connection <0.2539.0> (127.0.0.1:56052 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:59:05 ===
+accepting AMQP connection <0.2683.0> (127.0.0.1:56093 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 16-Dec-2015::23:59:20 ===
+closing AMQP connection <0.2683.0> (127.0.0.1:56093 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:00:43 ===
+accepting AMQP connection <0.2705.0> (127.0.0.1:56107 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:15 ===
+accepting AMQP connection <0.2723.0> (127.0.0.1:56122 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 17-Dec-2015::00:01:19 ===
+closing AMQP connection <0.2723.0> (127.0.0.1:56122 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 17-Dec-2015::00:01:21 ===
+accepting AMQP connection <0.2740.0> (127.0.0.1:56123 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:21 ===
+closing AMQP connection <0.2740.0> (127.0.0.1:56123 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:27 ===
+accepting AMQP connection <0.2756.0> (127.0.0.1:56124 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:27 ===
+closing AMQP connection <0.2756.0> (127.0.0.1:56124 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:32 ===
+accepting AMQP connection <0.2773.0> (127.0.0.1:56125 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:32 ===
+closing AMQP connection <0.2773.0> (127.0.0.1:56125 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:35 ===
+accepting AMQP connection <0.2789.0> (127.0.0.1:56127 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:35 ===
+closing AMQP connection <0.2789.0> (127.0.0.1:56127 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:45 ===
+accepting AMQP connection <0.2806.0> (127.0.0.1:56128 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:45 ===
+closing AMQP connection <0.2806.0> (127.0.0.1:56128 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:54 ===
+accepting AMQP connection <0.2824.0> (127.0.0.1:56129 -> 127.0.0.1:5672)
+
+=WARNING REPORT==== 17-Dec-2015::00:01:57 ===
+closing AMQP connection <0.2824.0> (127.0.0.1:56129 -> 127.0.0.1:5672):
+connection_closed_abruptly
+
+=INFO REPORT==== 17-Dec-2015::00:01:59 ===
+accepting AMQP connection <0.2841.0> (127.0.0.1:56130 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:01:59 ===
+closing AMQP connection <0.2841.0> (127.0.0.1:56130 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:14:05 ===
+closing AMQP connection <0.2705.0> (127.0.0.1:56107 -> 127.0.0.1:5672)
+
+=INFO REPORT==== 17-Dec-2015::00:14:26 ===
+Stopping RabbitMQ
+
+=INFO REPORT==== 17-Dec-2015::00:14:26 ===
+stopped TCP Listener on [::]:5672
+
+=INFO REPORT==== 17-Dec-2015::00:14:26 ===
+Stopped RabbitMQ application
+
+=INFO REPORT==== 17-Dec-2015::00:14:26 ===
+Halting Erlang VM

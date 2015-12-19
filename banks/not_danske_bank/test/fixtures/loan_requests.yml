@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ssn: 1
+  creditScore: 1
+  loanAmount: 1.5
+  loanDuration: 1
+
+two:
+  ssn: 1
+  creditScore: 1
+  loanAmount: 1.5
+  loanDuration: 1

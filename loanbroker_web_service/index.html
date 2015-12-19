@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sockjs Client</title>
+</head>
+<link rel="stylesheet" type="text/css" href="bower_components/foundation/css/foundation.min.css">
+<body>
+<h3 class="text-center">Sock JS is AMAAAAZING</h3>
+<hr>
+
+<div class="row">
+    <p>
+        <label class="label info" for="ssn">SSN</label>
+        <input id="ssn" type="text" value="123123-1234">
+    </p>
+    <p>
+        <label class="label info" for="load_amount">Loan amount</label>
+        <input id="load_amount" type="text" value="10000">
+    </p>
+    <p>
+        <label class="label info" for="load_duration">Loan duration (in month)</label>
+        <input id="load_duration" type="text" value="12">
+    </p>
+    <button type="button" class="button small" onclick="connect()">Connect</button>
+    <button type="button" class="button small" onclick="sendMessage()">Send msg</button>
+    <button type="button" class="button small" onclick="disconnect()">Close socket</button>
+    <hr>
+    <h4>Messages received</h4>
+    <textarea style="height: 200px" id="msg_received"></textarea>
+</div>
+
+<script src="//cdn.jsdelivr.net/sockjs/1.0.0/sockjs.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
